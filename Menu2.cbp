@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Menu2" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Menu2" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Menu2" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+			<Add directory="C:/Users/Carlos/Desktop/Progra3-Tarea1/SDL2_image-2.0.0/i686-w64-mingw32/include/SDL2" />
+		</Compiler>
+		<Linker>
+			<Add option="-lmingw32" />
+			<Add option="-lSDL2main" />
+			<Add option="-lSDL2" />
+			<Add option="-lSDL2_mixer" />
+			<Add option="-lSDL2_image" />
+			<Add option="-lSDL2_ttf" />
+			<Add directory="C:/Users/Carlos/Desktop/Progra3-Tarea1/SDL2_image-2.0.0/i686-w64-mingw32/lib" />
+		</Linker>
+		<Unit filename="Enemigo.cpp" />
+		<Unit filename="Enemigo.h" />
+		<Unit filename="Enemigo2.cpp" />
+		<Unit filename="Enemigo2.h" />
+		<Unit filename="Entidad.cpp" />
+		<Unit filename="Entidad.h" />
+		<Unit filename="Jugador.cpp" />
+		<Unit filename="Jugador.h" />
+		<Unit filename="Personaje.cpp" />
+		<Unit filename="Personaje.h" />
+		<Unit filename="Proyectil.cpp" />
+		<Unit filename="Proyectil.h" />
+		<Unit filename="Proyectil2.cpp" />
+		<Unit filename="Proyectil2.h" />
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
